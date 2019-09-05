@@ -1,0 +1,12 @@
+---
+- name: mesos-fedora-m1
+  box: fedora/30-cloud-base
+  ip: 100.0.10.100
+  mem: 6144
+  cpu: 4
+- name: mesos-fedora-a1
+  box: centos/7
+  box: fedora/30-cloud-base
+  ip: 100.0.10.101
+  mem: 2048
+  cpu: 2
